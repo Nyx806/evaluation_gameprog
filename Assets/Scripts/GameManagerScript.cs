@@ -11,12 +11,6 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _scoreText;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void GameOver()
     {
         gameOverUI.SetActive(true);
