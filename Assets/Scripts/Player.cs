@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         groundCheck = transform.Find("GroundCheck");
         
-        rb.gravityScale = 1f;
+        rb.gravity = 1f;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
